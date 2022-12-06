@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// importing components from react-router-dom package
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+  
+// import Home component
+import Home from "./Home.js";
+// import About component
+import Company from "./Company.js";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React today!
-        </a>
-      </header>
-    </div>
+    <>
+      {/* This is the alias of BrowserRouter i.e. Router */}
+      <Router>
+        <Routes>
+          {/* This route is for home component 
+          with exact path "/", in component props 
+          we passes the imported component*/}
+          <Route exact path="/" element={<Home />} />
+            
+          {/* This route is for about component 
+          with exact path "/about", in component 
+          props we passes the imported component*/}
+          <Route path="/company/:id" element={<Company />} />
+            
+            
+          
+        </Routes>
+      </Router>
+    </>
   );
 }
-
+  
 export default App;
