@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/digitalfem-web/static/css/main.073c9b0a.css",
-    "main.js": "/digitalfem-web/static/js/main.685ba65d.js",
+    "main.css": "/digitalfem-web/static/css/main.017e857f.css",
+    "main.js": "/digitalfem-web/static/js/main.6e437462.js",
     "static/js/787.28cb0dcd.chunk.js": "/digitalfem-web/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/digitalfem-web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/digitalfem-web/index.html",
-    "main.073c9b0a.css.map": "/digitalfem-web/static/css/main.073c9b0a.css.map",
-    "main.685ba65d.js.map": "/digitalfem-web/static/js/main.685ba65d.js.map",
+    "main.017e857f.css.map": "/digitalfem-web/static/css/main.017e857f.css.map",
+    "main.6e437462.js.map": "/digitalfem-web/static/js/main.6e437462.js.map",
     "787.28cb0dcd.chunk.js.map": "/digitalfem-web/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.685ba65d.js"
+    "static/css/main.017e857f.css",
+    "static/js/main.6e437462.js"
   ]
 }
