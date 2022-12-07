@@ -17,3 +17,12 @@
     display: flex;
     flex-direction: row;
 }
+
+.bigtext{
+    text-align: center;
+    font-size: 40;
+}
+
+.text {
+    margin: 20px;
+}
