@@ -26,3 +26,13 @@
 .text {
     margin: 20px;
 }
+
+.texts {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    margin-top: 40px;
+    border-radius: 25px;
+    background-color: rgba(239, 233, 237, 0.423);
+    padding-left: 20px;
+}

@@ -26,10 +26,14 @@ function Home() {
     <h1>Welcome to my Digital Feminism Project!</h1>
     <h2>Click a company to learn more about their inclusion of women and minorities in tech.</h2>
     <div className="buttons" >{buttons}</div>
+    <div className="texts">
     <h3 className="bigtext">About me</h3>
     <h4 className="text">{about_me}</h4>
+    </div>
+    <div className="texts">
     <h3 className="bigtext">Why I created this website</h3>
-    <h4 className="text">{about_me}</h4>      
+    <h4 className="text">{about_me}</h4> 
+    </div>     
 </div>
     )
 }
