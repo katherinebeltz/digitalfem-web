@@ -6,7 +6,7 @@ import './Home.css';
 function Home() {
     const navigate = useNavigate()
 
-    const companies = ["Google", "Apple", "Meta"]
+    const companies = ["Google", "Apple", "Meta", "Microsoft"]
 
     const about_me = "I am a student at Duke University in the class of 2024 studying Computer Science. After graduation, I hope to become a software engineer! I have created this website for a course I am taking called Digital Feminism, where we discuss digital culture from a feminist perspective."
 
