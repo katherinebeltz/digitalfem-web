@@ -5,29 +5,30 @@ import './Company.css';
 function Company() {
     const id = useParams().id;
 
-    const names = ["Google", "Apple", "Meta"]
+    const names = ["Google", "Apple", "Meta", "Microsoft"]
 
-    const first_name = ["Marissa Mayer", "Joanna Hoffman", "Ruchi Saghvi"]
+    const first_name = ["Marissa Mayer", "Joanna Hoffman", "Ruchi Saghvi", "Sharon Cunnington"]
 
-    const first_year = [1999, 1980, 2005]
+    const first_year = [1999, 1980, 2005, 1989]
 
-    const percent_F_tech = [25.9, 24.4, 25.8]
+    const percent_F_tech = [25.9, 24.4, 25.8, 25.8]
 
-    const per_H_tech = [5.7, 7.8, 4.8]
+    const per_H_tech = [5.7, 7.8, 4.8, 6.8]
 
-    const per_H_lead = [4.1, 7.8, 5.4]
+    const per_H_lead = [4.1, 7.8, 5.4, 3.5]
 
-    const per_B_tech = [3.5, 5.5, 2.4]
+    const per_B_tech = [3.5, 5.5, 2.4, 5.7]
 
-    const per_B_lead = [4.7, 4.0, 4.9]
+    const per_B_lead = [4.7, 4.0, 4.9, 5.7]
 
-    const percent_F_lead = [30.6, 31.4, 36.7]
+    const percent_F_lead = [30.6, 31.4, 36.7, 25.9]
 
     const sources = [["https://www.cnn.com/2012/07/16/tech/web/marissa-mayer-bio#:~:text=New%20Yahoo%20CEO%20Marissa%20Mayer,and%20most%20visible%20public%20faces.",'https://about.google/belonging/diversity-annual-report/2022/','https://www.statista.com/statistics/311805/google-employee-gender-department-global/'],
 ["https://www.folklore.org/ProjectView.py?project=Macintosh&characters=Joanna+Hoffman","https://www.apple.com/diversity/" ],
-["https://www.vagabomb.com/The-Story-of-Ruchi-Sanghvi-the-Woman-Who-Was-Facebooks-First-Female-Engineer/#:~:text=Ruchi%20Sanghvi%2C%20the%20first%20female,of%20Facebook's%20News%20Feed%20feature.", ]]
+["https://www.vagabomb.com/The-Story-of-Ruchi-Sanghvi-the-Woman-Who-Was-Facebooks-First-Female-Engineer/#:~:text=Ruchi%20Sanghvi%2C%20the%20first%20female,of%20Facebook's%20News%20Feed%20feature.", ],
+["https://www.seattletimes.com/business/microsoft/i-felt-so-alone-what-women-at-microsoft-face-and-why-many-leave/"]]
 
-    const learn = ["https://about.google/belonging/diversity-annual-report/2022/","https://www.apple.com/diversity/" , "https://about.fb.com/news/2022/07/metas-diversity-report-2022/"]
+    const learn = ["https://about.google/belonging/diversity-annual-report/2022/","https://www.apple.com/diversity/" , "https://about.fb.com/news/2022/07/metas-diversity-report-2022/", "https://www.microsoft.com/en-us/diversity/inside-microsoft/annual-report?activetab=innovation-spotlights%3aprimaryr4"]
 
     const list_src = sources[id].map((source, index) =>
     <a className="source" key={index} href={source} >{source}</a>)
