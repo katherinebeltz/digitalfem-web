@@ -32,7 +32,7 @@ function Home() {
     </div>
     <div className="texts">
     <h3 className="bigtext">Why I created this website</h3>
-    <h4 className="text">{about_me}</h4> 
+    <h4 className="text">{why_website}</h4> 
     </div>     
 </div>
     )
