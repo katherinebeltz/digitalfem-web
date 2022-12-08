@@ -40,7 +40,6 @@ function Company() {
 <div className="container">
     <h1 className="title">{names[id]}</h1>
     <h1 className="intro">Here are some facts about {names[id]}.</h1>
-    <h2 className="line">The first female engineer at&nbsp;<div> {names[id]} </div> &nbsp;was&nbsp;<div className="big">{first_name[id]}, </div> &nbsp;and she started in <div className="big">&nbsp;{first_year[id]}</div>.</h2>
    
     <div className="percents">
     <h2 className="percent"> <h2 className="per">{percent_F_tech[id]}%</h2>of tech employees are women.</h2>
@@ -53,6 +52,7 @@ function Company() {
     <h2 className="percent"><h2 className="per">{per_H_lead[id]}%</h2> of leadership employees are latinx.</h2>
     <h2 className="percent"><h2 className="per">{per_B_lead[id]}%</h2> of leadership employees are black.</h2>
     </div>
+    <h2 className="line">The first female engineer at&nbsp;<div> {names[id]} </div> &nbsp;was&nbsp;<div className="big">{first_name[id]}, </div> &nbsp;and she started in <div className="big">&nbsp;{first_year[id]}</div>.</h2>
 
     <div className="learn"><h2>Read more from the company</h2> <a className="link" href={learn[id]}>{learn[id]}</a> </div>
     <h2 className="sources"> <div>Sources</div> {list_src} </h2>

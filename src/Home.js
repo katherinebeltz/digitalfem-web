@@ -26,6 +26,19 @@ function Home() {
     <h1>Welcome to my Digital Feminism Project!</h1>
     <h2>Click a company to learn more about their inclusion of women and minorities in tech.</h2>
     <div className="buttons" >{buttons}</div>
+    <div className="stats">
+        <h2>General Statistics about Women in Computer Science</h2>
+        <div className="statline"><h3>Just over&nbsp;</h3> <h3 className="bigstat">25%</h3><h3>&nbsp;of software engineers are women.</h3></div>
+        <div className="statline">
+        <h3>Around </h3><h3 className="bigstat">&nbsp;12%&nbsp;</h3><h3> of tech jobs are held by women of color.</h3>
+        </div>
+        <div className="statline">
+        <h3>Only </h3><h3 className="bigstat">&nbsp;18%&nbsp;</h3><h3> of computer science degrees are held by women.</h3>
+        </div>
+        <div  className="statline">
+        <h3 className="bigstat">50%&nbsp;</h3><h3>of women who have tech jobs leave the industry by the age of </h3><h3 className="bigstat">&nbsp;35</h3><h3>.</h3>
+        </div>
+    </div>
     <div className="texts">
     <h3 className="bigtext">About me</h3>
     <h4 className="text">{about_me}</h4>
@@ -34,6 +47,7 @@ function Home() {
     <h3 className="bigtext">Why I created this website</h3>
     <h4 className="text">{why_website}</h4> 
     </div>     
+    <p>Source: https://www.zippia.com/advice/women-in-technology-statistics/#:~:text=The%20percentage%20of%20bachelor's%20in,%2C%20to%2018%25%20in%202021.</p>
 </div>
     )
 }
