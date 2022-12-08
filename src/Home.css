@@ -56,3 +56,10 @@
     font-size: 25px;
 
 }
+
+.link {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: rgb(96, 94, 94);
+}

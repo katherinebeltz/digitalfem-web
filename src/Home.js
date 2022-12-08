@@ -46,8 +46,8 @@ function Home() {
     <div className="texts">
     <h3 className="bigtext">Why I created this website</h3>
     <h4 className="text">{why_website}</h4> 
-    </div>     
-    <p>Source: https://www.zippia.com/advice/women-in-technology-statistics/#:~:text=The%20percentage%20of%20bachelor's%20in,%2C%20to%2018%25%20in%202021.</p>
+    </div>    
+    <a className="link" href="https://www.zippia.com/advice/women-in-technology-statistics/#:~:text=The%20percentage%20of%20bachelor's%20in,%2C%20to%2018%25%20in%202021">Source: https://www.zippia.com/advice/women-in-technology-statistics/#:~:text=The%20percentage%20of%20bachelor's%20in,%2C%20to%2018%25%20in%202021.</a>
 </div>
     )
 }
